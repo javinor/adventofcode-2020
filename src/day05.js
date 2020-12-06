@@ -1,6 +1,4 @@
 const fs = require('fs')
-const path = require('path')
-const { createSecureContext } = require('tls')
 
 const lines = fs.readFileSync('./src/day05.input', 'utf8').split('\n')
 
