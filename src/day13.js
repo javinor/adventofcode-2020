@@ -1,5 +1,4 @@
 const fs = require('fs')
-const { min, sortBy } = require('lodash')
 const _ = require('lodash')
 
 const input = fs.readFileSync('./src/day13.input', 'utf8')
